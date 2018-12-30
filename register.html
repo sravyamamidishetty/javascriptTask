@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <br>
+    
+    <div class="container">
+ 		
+            <div class="row row-flex">
+                    <div class="col-sm-4"></div>
+                   
+    <div class="col-sm-4" style="background-color: #f5f5f0;border:1px solid;border-radius:5px;padding-bottom:10px;padding-top:10px;padding-left:30px;padding-right:30px"> 
+            <div class="form-group"><h3>Registration Form</h3></div>
+        <section class="container-fluid bg">
+    <section class="row justify-content-center">
+
+        <form class="form-container" action="homepage.html" onsubmit="return registerValidate()">
+        
+            <div class="form-group">
+                <label for="firstname">First Name</label> 
+                <input type="text" class="form-control" id="fname"  name="firstname" placeholder="Enter First Name">
+                <span id="validfirstname"></span>
+            </div>
+
+            <div class="form-group">
+                    <label for="middlename">Middle Name</label> 
+                    <input type="text" class="form-control" id="mname"  name="middlename" placeholder="Enter Middle Name">
+                    <span id="validmiddlename"></span>
+            </div>
+
+            <div class="form-group">
+                    <label for="lastname">Last Name</label> 
+                    <input type="text" class="form-control" id="lname"  name="lastname" placeholder="Enter Last Name">
+                    <span id="validlastname"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label> 
+                <input type="email" class="form-control" id="email"  name="email" placeholder="Enter Email">
+                <span id="validemail"></span>
+            </div>
+    
+
+            <div class="form-group">
+                <label for="mobile">Mobile</label> 
+                <input type="mobile" class="form-control" id="mobile"  name="mobile" placeholder="Enter Mobile">
+                <span id="validmobile"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label> 
+                <input type="password" class="form-control" id="password"  name="password" placeholder="Enter Password">
+                <span id="validpassword"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmpassword">Confirm Password</label> 
+                <input type="password" class="form-control" id="confirmpassword"  name="confirmpassword" placeholder="Enter password again">
+                <span id="validconfirmpassword"></span>
+            </div>
+
+            <button type="submit"  class="btn btn-warning btn-block">Register</button>
+                
+        </form>
+    </section>
+</section>
+
+</div>
+</div> 
+</div>
+</body>
+    
+<script src="validation.js"></script>
+    
+</html>
+
